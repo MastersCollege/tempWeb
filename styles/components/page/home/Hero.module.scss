@@ -18,6 +18,10 @@
   flex-direction: column;
 }
 
+.logot {
+  padding: 1rem;
+}
+
 .logo_container {
   display: flex;
   justify-content: center;
@@ -87,5 +91,9 @@
     > div {
       width: 100vw;
     }
+  }
+  .buttons {
+    justify-content: center;
+    align-items: center;
   }
 }

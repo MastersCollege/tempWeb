@@ -26,32 +26,10 @@ const Hero = ({ ...args }) => {
   return (
     <div className={styles.hero}>
       <div className={styles.content}>
-        <div className={styles.logo_container}>
-          <div className={styles.logo}>
-            <div className={styles.logo_img}>
-              <Image
-                src="/logo.svg"
-                alt="logo"
-                width={150}
-                height={150}
-                layout="responsive"
-              />
-            </div>
-            <p>ESTD 1986</p>
-          </div>
-
-          <hr className={styles.divider} />
-
-          <div className={styles.text_logo}>
-            <h3>PROFESSOR V. RAJAPPAN MEMORIAL</h3>
-            <h1>
-              MASTERS
-              <br />
-              COLLEGE
-            </h1>
-            <h2>THURAVOOR , CHERTHALA</h2>
-          </div>
+        <div className={styles.logot}>
+          <Image src="/logot.svg" alt="poster" width={459} height={157.84} />
         </div>
+
         <div className={styles.buttons}>
           <Button label="APPLY FOR ADMISSION" rank="primary" />
           <Button label="SEE AVAILABLE COURCES" />
